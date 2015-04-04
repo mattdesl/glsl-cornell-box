@@ -11,6 +11,6 @@ void main() {
   float angle = (sin(iGlobalTime)*0.25);
   camera(rot, angle, -2.0, iResolution.xy, ro, rd);
 
-  gl_FragColor.rgb = cornell(gl_FragCoord.xy, ro, rd);
+  gl_FragColor.rgb = cornell(ro, rd);
   gl_FragColor.a = 1.0; 
 }

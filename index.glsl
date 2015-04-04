@@ -225,7 +225,7 @@ vec3 moveCamera(vec3 ray_start) {
   return ray_start;
 }
 
-vec3 cornellBox(vec2 fragCoord, vec3 ray_origin, vec3 ray_dir) {
+vec3 cornellBox(vec3 ray_origin, vec3 ray_dir) {
   vec3 ray_start = vec3(0.0, 0.0, -1.4);
   vec3 color = vec3(0.0);
   vec3 ray_s = moveCamera(ray_origin * vec3(278.0, 100.0, 270.0));

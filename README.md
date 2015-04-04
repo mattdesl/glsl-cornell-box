@@ -21,7 +21,7 @@ void main() {
   float angle = (sin(iGlobalTime)*0.25);
   camera(rot, angle, -2.0, iResolution.xy, ro, rd);
 
-  gl_FragColor.rgb = cornell(gl_FragCoord.xy, ro, rd);
+  gl_FragColor.rgb = cornell(ro, rd);
   gl_FragColor.a = 1.0; 
 }
 ```
@@ -32,9 +32,9 @@ You will not be able to rotate around it fully as the back-side of each face wil
 
 [![NPM](https://nodei.co/npm/glsl-cornell-box.png)](https://www.npmjs.com/package/glsl-cornell-box)
 
-##### `vec3 cornellBox(vec2 fragCoord, vec3 ro, vec3 rd)`
+##### `vec3 cornellBox(vec3 ro, vec3 rd)`
 
-Raymarches a cornell box using `fragCoord`, where `ro` is "ray origin" and `rd` is "ray direction." Returns the RGB colors of the scene.
+Raymarches a cornell box where `ro` is "ray origin" and `rd` is "ray direction." Returns the RGB colors of the scene.
 
 ## License
 
