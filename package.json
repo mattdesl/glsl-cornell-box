@@ -1,6 +1,6 @@
 {
   "name": "glsl-cornell-box",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "the cornell box raymarched in GLSL, for tests",
   "main": "index.js",
   "license": "CC BY-NC-SA 3.0",
@@ -9,8 +9,7 @@
     "email": "dave.des@gmail.com",
     "url": "https://github.com/mattdesl"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "a-big-triangle": "^1.0.0",
     "browserify": "^9.0.7",
