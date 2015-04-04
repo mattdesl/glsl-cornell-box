@@ -2,6 +2,10 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
+![cornell](http://i.imgur.com/wX030Ti.png)
+
+[(glsl bin demo)](http://glslb.in/s/5d65cc9b)
+
 The Cornell Box raymarched in GLSL, for testing purposes. [Credit to @h3r3](https://www.shadertoy.com/view/4ssGzS). 
 
 ```glsl
