@@ -1,0 +1,47 @@
+{
+  "name": "glsl-cornell-box",
+  "version": "1.0.0",
+  "description": "the cornell box raymarched in GLSL, for tests",
+  "main": "index.js",
+  "license": "CC BY-NC-SA 3.0",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "a-big-triangle": "^1.0.0",
+    "browserify": "^9.0.7",
+    "canvas-fit": "^1.3.0",
+    "gl-context": "^0.1.1",
+    "gl-shader": "^4.0.1",
+    "glsl-turntable-camera": "^1.0.0",
+    "glslify": "^2.0.1",
+    "wzrd": "^1.2.1"
+  },
+  "scripts": {
+    "test": "wzrd demo.js:bundle.js -- -t glslify"
+  },
+  "keywords": [
+    "glsl",
+    "glslify",
+    "glslbin",
+    "cornell",
+    "box",
+    "sample",
+    "test",
+    "scene",
+    "raymarch",
+    "raymarched"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/glsl-cornell-box.git"
+  },
+  "homepage": "https://github.com/mattdesl/glsl-cornell-box",
+  "bugs": {
+    "url": "https://github.com/mattdesl/glsl-cornell-box/issues"
+  }
+}
