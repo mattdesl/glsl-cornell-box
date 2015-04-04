@@ -4,7 +4,7 @@
 
 ![cornell](http://i.imgur.com/wX030Ti.png)
 
-[(glsl bin demo)](http://glslb.in/s/5d65cc9b)
+[(glsl bin demo)](http://glslb.in/s/e34d9dd0)
 
 The Cornell Box raymarched in GLSL, for testing purposes. [Credit to @h3r3](https://www.shadertoy.com/view/4ssGzS). 
 
