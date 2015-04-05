@@ -1,6 +1,6 @@
 {
   "name": "glsl-cornell-box",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "the cornell box raymarched in GLSL, for tests",
   "main": "index.js",
   "license": "CC BY-NC-SA 3.0",
