@@ -4,11 +4,13 @@
 
 ![cornell](http://i.imgur.com/wX030Ti.png)
 
-[(glsl bin demo)](http://glslb.in/s/e34d9dd0)
+[(glsl bin demo)](http://glslb.in/s/32a06a02)
 
 The Cornell Box raymarched in GLSL, for testing purposes. [Credit to @h3r3](https://www.shadertoy.com/view/4ssGzS). 
 
 ```glsl
+precision highp float;
+
 uniform vec2 iResolution;
 uniform float iGlobalTime;
 
@@ -27,6 +29,8 @@ void main() {
 ```
 
 You will not be able to rotate around it fully as the back-side of each face will be black (unlit). PRs welcome.
+
+*Note:* You should use `highp` precision in your shaders to support mobile and low-end GPUs.
 
 ## Usage
 
